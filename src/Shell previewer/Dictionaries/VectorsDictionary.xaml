@@ -1,0 +1,27 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Canvas 
+        x:Key="ErrorIcon" 
+        Width="67.73333" 
+        Height="67.73333">
+        <Canvas.RenderTransform>
+            <ScaleTransform ScaleX="3" ScaleY="3"/>
+        </Canvas.RenderTransform>
+        <Canvas.RenderTransformOrigin>
+            <Point X="0.5" Y="0.5"/>
+        </Canvas.RenderTransformOrigin>
+        <Path 
+            Fill="#FFF44336" 
+            StrokeThickness="4.83812" 
+            Data="M 67.73333 33.86658 A 33.866668 33.866671 0 0 1 33.866666 67.73333 33.866668 33.866671 0 0 1 0 33.86658 33.866668 33.866671 0 0 1 33.866666 0 33.866668 33.866671 0 0 1 67.73333 33.86658 Z" />
+        <Path 
+            Fill="#FFFFFFFF" 
+            StrokeThickness="4.83812" 
+            Data="M 54.24344 47.53822 47.401342 54.38027 13.19084 20.16978 20.032944 13.32762 Z" />
+        <Path 
+            Fill="#FFFFFFFF" 
+            StrokeThickness="4.83812" 
+            Data="m 20.06715 54.34607 -6.842102 -6.84215 34.2105 -34.21046 6.842102 6.84206 z" />
+    </Canvas>
+</ResourceDictionary>
