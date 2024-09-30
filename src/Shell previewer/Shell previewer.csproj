@@ -21,6 +21,7 @@
     <PackageIcon>PkgIcon.png</PackageIcon>
     <PackageReadmeFile>PkgReadme.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/FatRainbowPony/Shell-previewer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FatRainbowPony/Shell-previewer</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
