@@ -20,6 +20,7 @@
     <Description>Control for shell preview in WPF</Description>
     <PackageIcon>PkgIcon.png</PackageIcon>
     <PackageReadmeFile>PkgReadme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/FatRainbowPony/Shell-previewer</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
