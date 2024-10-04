@@ -92,7 +92,7 @@ namespace ShellPreviewer.Controls.Wpf
         #region Methods
 
         #region Private
-        private void OnShutdownStarted(object? sender, EventArgs e) => Dispose();
+        private void OnShutdownStarted(object? sender, EventArgs e) => Dispose(true);
 
         private static void OnSourceChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
