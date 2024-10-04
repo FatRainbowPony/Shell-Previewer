@@ -96,7 +96,7 @@ namespace ShellPreviewer.Controls.Wpf
 
         private static void OnSourceChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            if (d is ShellPreviewer previewer && e.NewValue is string source && (File.Exists(source) || Directory.Exists(source)))
+            if (d is ShellPreviewer previewer && e.NewValue is string source)
             {
                 previewer.OpenPreview(source);
             }
