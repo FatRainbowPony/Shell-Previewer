@@ -6,7 +6,7 @@
         height="200">
 </div>
 
-# Shell previewer
+# Shell Previewer
 [![Nuget](https://img.shields.io/nuget/v/ShellPreviewer)](https://www.nuget.org/packages/ShellPreviewer)
 [![Downloads](https://img.shields.io/nuget/dt/ShellPreviewer)](https://www.nuget.org/packages/ShellPreviewer)
 
