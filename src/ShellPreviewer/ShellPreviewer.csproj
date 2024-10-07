@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <RootNamespace>ShellPreviewer</RootNamespace>
+    <Nullable>enable</Nullable>
+	<UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <AssemblyName>ShellPreviewer</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<FileVersion>1.0.0.0</FileVersion>
+	<Version>1.0.0</Version>
+    <Title>ShellPreviewer</Title>
+    <Authors>FatRainbowPony</Authors>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>windows;csharp;dotnet;wpf;control;shell-previewer;preview-handler</PackageTags>
+    <Description>Control for shell preview in WPF</Description>
+    <PackageIcon>PkgIcon.png</PackageIcon>
+    <PackageReadmeFile>PkgReadme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/FatRainbowPony/Shell-Previewer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FatRainbowPony/Shell-Previewer</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\PkgIcon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
+    <Resource Include="Assets\PkgReadme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
+  </ItemGroup>
+
+</Project>
