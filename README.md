@@ -1,6 +1,6 @@
 <div align="Center">
     <img
-        src="https://github.com/FatRainbowPony/Shell-previewer/blob/main/img/ShellPreviewer.svg"
+        src="https://github.com/FatRainbowPony/Shell-Previewer/blob/main/img/ShellPreviewer.svg"
         alt="ShellPreviewer" 
         width="250" 
         height="200">
