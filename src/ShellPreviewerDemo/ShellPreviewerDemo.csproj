@@ -8,6 +8,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <AssemblyName>ShellPreviewerDemo</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
