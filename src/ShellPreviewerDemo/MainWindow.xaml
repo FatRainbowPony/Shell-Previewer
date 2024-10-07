@@ -1,0 +1,42 @@
+﻿<Window 
+    x:Class="ShellPreviewerDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:shell="clr-namespace:ShellPreviewer.Controls.Wpf;assembly=ShellPreviewer"
+    mc:Ignorable="d"
+    Title="MainWindow" 
+    Height="400" 
+    Width="700">
+    <DockPanel LastChildFill="True">
+        <StackPanel
+            DockPanel.Dock="Top"
+            Orientation="Horizontal"
+            Margin="6">
+            <Button
+                x:Name="FileButton"
+                Content="File"
+                Width="50"
+                VerticalAlignment="Center"
+                Margin="0, 0, 6, 0"
+                Click="FileButtonClick"/>
+            <Button
+                x:Name="FolderButton"
+                Content="Folder"
+                Width="50"
+                VerticalAlignment="Center"
+                Click="FolderButtonClick"/>
+        </StackPanel>
+        <TextBlock
+            x:Name="StatusTextBlock"
+            DockPanel.Dock="Bottom"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Margin="6">
+            <Run Text="Status:"/>
+            <Run Text="{Binding ElementName=ShellPreviewer, Path=Status, Mode=OneWay}"/>
+        </TextBlock>
+        <shell:ShellPreviewer x:Name="ShellPreviewer"/>
+    </DockPanel>
+</Window>
