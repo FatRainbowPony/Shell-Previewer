@@ -48,4 +48,4 @@ Install the NuGet package and insert a reference to the `ShellPreviewer.Controls
 </Window>
 ```
 
-You can see [Shell previewer demo](https://github.com/FatRainbowPony/Shell-previewer/tree/main/src/Shell%20previewer%20demo) for an example project
+You can see [ShellPreviewerDemo](https://github.com/FatRainbowPony/Shell-Previewer/tree/main/src/ShellPreviewerDemo) for an example project
